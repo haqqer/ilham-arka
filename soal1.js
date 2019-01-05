@@ -26,5 +26,4 @@ function biodata() {
 	return data
 }
 
-console.log(typeof(biodata()))
 console.log(biodata())
