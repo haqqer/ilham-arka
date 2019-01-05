@@ -151,9 +151,7 @@ B. Buatlah query SQL sehingga menampilkan data sebagai berikut!
 ``` SQL ```
 ``` SELECT categories.id, categories.name AS category_name, GROUP_CONCAT(products.name) AS products  FROM products JOIN categories ON categories.id = products.category_id GROUP BY products.category_id ```
 ### Hasil :
-``` 
-
-```
+!['Screenshoot One'](https://github.com/haqqer/ilham-arka/blob/master/picture/ss1.png)
 
 ## Soal 7
 7. Dari soal nomor 6, buatlah aplikasi sederhana untuk menampilkan hasil dari query ke
