@@ -137,3 +137,33 @@ Clue:
 15
 ```
 
+## Soal 6
+6. Sebua DB gudang mempunyai tabel sebagai berikut:
+- products
+    - id, name, category_id(FK categories.id)
+- categories
+    - id, name
+    
+A. Isikan data relevan sesuai dengan tabel db yang telah dibuat!
+
+B. Buatlah query SQL sehingga menampilkan data sebagai berikut!
+### Jawaban :
+``` SQL ```
+``` SELECT categories.id, categories.name AS category_name, GROUP_CONCAT(products.name) AS products  FROM products JOIN categories ON categories.id = products.category_id GROUP BY products.category_id ```
+### Hasil :
+``` 
+
+```
+
+## Soal 7
+7. Dari soal nomor 6, buatlah aplikasi sederhana untuk menampilkan hasil dari query ke
+layar. Gunakan Html, css, dan twitter bootstrap untuk tampilan. Sedangkan bahasa
+pemrograman bebas.
+
+### Jawaban :
+``` Javascript ```
+
+### Hasil :
+``` 
+
+```
