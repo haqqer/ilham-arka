@@ -7,6 +7,7 @@ Requirement:
 
     - Nodejs >= v8.11.4
     - Python >= v3.6
+    - MySQL Database
     - yarn or npm
 
 ## Soal 1
@@ -160,6 +161,9 @@ pemrograman bebas.
 
 ### Jawaban :
 ``` Javascript ```
-
+``` 
+cd soal6_7
+node app.js
+ ```
 ### Hasil :
 !['Screenshoot Program soal7'](https://github.com/haqqer/ilham-arka/blob/master/picture/ss2.png)
