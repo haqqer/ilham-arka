@@ -162,6 +162,4 @@ pemrograman bebas.
 ``` Javascript ```
 
 ### Hasil :
-``` 
-
-```
+!['Screenshoot Program soal7'](https://github.com/haqqer/ilham-arka/blob/master/picture/ss2.png)
