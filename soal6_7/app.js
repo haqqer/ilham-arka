@@ -26,7 +26,6 @@ app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
     let query = "SELECT categories.id, categories.name AS category_name, GROUP_CONCAT(products.name) AS products  FROM products JOIN categories ON categories.id = products.category_id GROUP BY products.category_id"
-    // let query = "SELECT * FROM categories"
     db.query(query, (err, result) => {
         if(err) {
             res.redirect('/');

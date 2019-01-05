@@ -21,4 +21,5 @@ function validatePass(pass) {
 	return true;
 }
 
+console.log("L0rd_hacker");
 console.log(validatePass("L0rd_hacker"))

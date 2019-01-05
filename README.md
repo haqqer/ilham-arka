@@ -20,6 +20,8 @@ Requirement:
 Return value harus berupa JSON
 
 ### Jawaban :
+``` Javascript ```
+
 ``` node soal1.js ```
 
 ### Hasil :
@@ -39,3 +41,99 @@ Return value harus berupa JSON
      { skill: 'html & css',
        description: 'Memahami dan mengimplementasikan, html dan css, untuk pembuatan layout suatu web, tetapi lebih sering, menggunakan framework dan template yang telah disediakan' } ] }
 ```
+
+## Soal 2
+2. Buatlah sebuah function untuk memverifikasi valid password dengan requirements
+    - Berjumlah delapan karakter
+    - Setidaknya terdapat sebuah huruf kecil, sebuah huruf besar, sebuah angka dan
+    sebuah karakter spesial
+    Contoh valid password adalah
+        - 123Qwer_
+        - ssdga_A7
+        - SUper&&4
+
+### Jawaban :
+``` Javascript ```
+
+``` node soal2.js ```
+
+### Hasil :
+``` 
+>> password yang diinputkan: L0rd_hacker
+>> result : true
+```
+
+
+## Soal 3
+3.  Buatlah function untuk mencetak garis miring dari karakter “*”, dengan parameter
+panjang kolom
+Jika function itu dijalankan:
+``` drawLine(8) ```
+akan dicetak di layar:
+
+### Jawaban :
+``` Python ```
+
+``` python3 soal3.py ```
+
+### Hasil :
+``` 
+
+*
+  *
+    *
+      *
+        *
+          *
+            *
+```
+
+## Soal 5
+4. Sebuah mesin penjual mandiri mempunyai stok uang kembalian 500, 1.000, 2.000,
+5.000, 10.000, 20.000 dan 50.000.
+Buatlah sebuah function untuk menentukan kembalian yang paling tepat!
+Misalnya: Total belanja 15.500, uang yang dimasukkan ke mesin adalah 50.000,
+sedangkan kembalian adalah 34.500, sehingga output yang dibutuhkan adalah:
+   - selembar 20.000
+   - selembar 10.000
+   - dua lembar 2.000
+   - satu koin 500
+
+### Jawaban :
+``` Python ```
+
+``` python3 soal4.py ```
+
+### Hasil :
+``` 
+Belanja : 15500
+Bayar : 50000
+selembar 20000
+selembar 10000
+dua lembar 2000
+satu koin 500
+```
+
+## Soal 5
+5. Buatlah function untuk menghitung jumlah jabat tangan yang terjadi dalam pertemuan
+yang dihadiri oleh beberapa orang. Jika setiap orang berjabat tangan dengan semua
+yang hadir dan hanya sekali berjabat tangan tangan dengan orang yang sama!
+Notice, Gunakan perulangan dan tidak menggunakan rumus matematika n x (n-1)/2
+atau ½.n.(n-1) ataupun yang lainnya!
+Clue:
+    - print(count_handshake(3))
+    - result: 3
+    - print(count_handshake(6))
+    - result: 15
+
+### Jawaban :
+``` Python ```
+
+``` python3 soal5.py ```
+
+### Hasil :
+``` 
+3
+15
+```
+

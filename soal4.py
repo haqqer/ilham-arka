@@ -38,24 +38,10 @@ class Hitung:
 
         return result
 
-# def kembalian(kembalian):
-#     uang = [
-#         [50000,0],
-#         [20000,0],
-#         [10000,0],
-#         [5000,0],
-#         [2000,0],
-#         [1000,0],
-#         [500,0]
-#     ]
-#     result = []
-#     sisa = kembalian
-#     while sisa!=0 :
-#         for i in range(0, len(uang)):
-#             if sisa >= uang[i][0]:
-#                 uang[i][1] = sisa / uang[i][0] 
-#                 sisa = sisa % uang[i][0]
-#     return uang
+
 belanja = Hitung(15500, 50000)
-print(belanja.hitung())
+print("Belanja : 15500")
+print("Bayar : 50000")
+print('\n'.join(belanja.hitung()))
+
 
